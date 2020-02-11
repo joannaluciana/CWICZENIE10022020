@@ -1,0 +1,118 @@
+* {}
+
+body {
+    margin: 0;
+    height: 2000px;
+
+}
+
+.normal-font {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.google-font {
+    font-size: 10px;
+    font-family: 'Bangers', cursive;
+}
+
+#menu {
+    height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(61, 50, 63, 0.75);
+    width: 100%;
+    position: fixed;
+    background-color: rgb(231, 218, 220);
+    justify-content: center;
+    display: flex;
+
+
+
+
+}
+
+#menu ul {
+
+
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#menu li {
+
+    float: left;
+    margin: 0 200px 0 0;
+    transition: 0.5s all;
+
+}
+
+#menu li:last-child {
+
+    float: left;
+    margin: 0 0 0 0;
+
+}
+
+
+#menu a {
+    font-family: 'Bangers', cursive;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(92, 79, 79);
+}
+
+#menu li:hover {
+    background: rgb(199, 136, 167);
+}
+
+.social-media {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    transform: translateY(100%) translateY(100%);
+}
+
+.social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+
+.social-media ul li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: #4267b2;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+    transition: .4s all;
+
+}
+
+
+
+.social-media ul li a.insta {
+
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.social-media ul li a.git {
+
+    background: black;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+
+.social-media ul li a:hover {
+    background: hotpink;
+}
